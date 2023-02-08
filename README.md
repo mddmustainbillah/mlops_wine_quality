@@ -40,3 +40,13 @@ git branch -M main
 git push -u origin main
 ```
 
+
+Run all the code:
+```bash
+dvc repro
+```
+
+See the metrics difference
+```bash
+dvc metrics diff
+```
