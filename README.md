@@ -50,3 +50,27 @@ See the metrics difference
 ```bash
 dvc metrics diff
 ```
+
+tox command - 
+```bash
+tox
+```
+For rebuilding -
+```bash
+tox -r
+```
+pytest command
+```bash
+pytest -v
+```
+setup command - 
+```bash
+pip install -e .
+```
+Build your own package command:
+```bash
+python setup.py sdist bdist wheel
+```
+
+
+
